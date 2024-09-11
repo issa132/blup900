@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --account=def-banire
-#SBATCH --nodes=1
+#SBATCH --nodes=2
 #SBATCH --gpus-per-node=p100:2
 #SBATCH --ntasks-per-node=32
 #SBATCH --mem=127000M
